@@ -26,7 +26,7 @@ public class WiringInstruction {
     @Column(name = "vchBankName")
     private String bankName;
 
-    @Column(name = "chrABANumber")
+   /**@Column(name = "chrABANumber")
     private char abaNumber;
 
     @Column(name = "vchSwift")
@@ -42,7 +42,7 @@ public class WiringInstruction {
     private String inFavourOf;
 
     @Column(name = "vchInFavourOfAccountNumber")
-    private String inFavourOfAccountNumber;
+    private String inFavourOfAccountNumber;**/
 
     @Column(name = "intObjectID")
     private int bankId;
